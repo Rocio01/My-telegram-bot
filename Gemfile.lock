@@ -1,0 +1,50 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.1)
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    equalizer (0.0.11)
+    excon (0.76.0)
+    ice_nine (0.11.2)
+    jaro_winkler (1.5.4)
+    parallel (1.19.2)
+    parser (2.7.1.4)
+      ast (~> 2.4.1)
+    rainbow (3.0.0)
+    rexml (3.2.4)
+    rubocop (0.81.0)
+      jaro_winkler (~> 1.5.1)
+      parallel (~> 1.10)
+      parser (>= 2.7.0.1)
+      rainbow (>= 2.2.2, < 4.0)
+      rexml
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    ruby-progressbar (1.10.1)
+    telegram_bot (0.0.8)
+      excon (>= 0.30.0)
+      virtus (>= 1.0.0)
+    thread_safe (0.3.6)
+    unicode-display_width (1.7.0)
+    virtus (1.0.5)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  rubocop (~> 0.81.0)
+  telegram_bot
+
+BUNDLED WITH
+   2.1.4
