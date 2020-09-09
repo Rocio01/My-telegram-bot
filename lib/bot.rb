@@ -1,10 +1,8 @@
 require 'telegram/bot'
 require_relative './dog.rb'
 
-
-
 class Bot
-attr_accessor :dog
+  attr_accessor :dog
   def initialize
     token = '1392241254:AAGQoWtD2GRs8TCG71nroHSDSAPtOOk58CQ'
     @dog = Dog.new
