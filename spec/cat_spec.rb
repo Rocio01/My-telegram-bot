@@ -4,7 +4,7 @@ describe Cat do
 
     let(:cat) {Cat.new}
     context '#initialize' do
-        it 'creates new cat_curiosities instance' do
+        it 'creates a new Cat instance cat_curiosities' do
             expect(cat.cat_curiosities.class).to eql(Array)
         end
     end
