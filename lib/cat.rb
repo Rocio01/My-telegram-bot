@@ -1,6 +1,6 @@
 class Cat
   attr_reader :cat_curiosities
-  def initialize(cat_curiosities = nil)
+  def initialize(_cat_curiosities = nil)
     @cat_curiosities = ['The oldest cat on record was Crème Puff from Austin,
                         Texas, who lived 38 years.',
                         'Cats spend nearly 1/3 of their waking hours cleaning themselves.',

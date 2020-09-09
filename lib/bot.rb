@@ -10,7 +10,6 @@ class Bot
     @dog = Dog.new
     @cat = Cat.new
     @greeting = Welcome.new
-    
 
     Telegram::Bot::Client.run(token) do |bot|
       bot.listen do |message|
