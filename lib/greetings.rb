@@ -2,7 +2,7 @@ class Welcome
   attr_reader :welcome, :bye, :wrong_command
 
   def initialize(_welcome = nil, _bye = nil, _wrong_command = nil)
-    @welcome = "  Welcome to copito1_bot  \n
+    @welcome = "  Welcome to copito1_bot  /start  \n
         This is a bot that will fill your curiosity about our furry friends \n
         Are you curious about dogs? type or click  /dog \n
         Are you curious about cats? type or click  /cat  \n
