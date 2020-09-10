@@ -47,7 +47,7 @@ Commands
 
 ## GitHub Repo
 
--  https://github.com/afcastaneda223/OOP---Milestone/tree/master
+-  https://github.com/Rocio01/My-telegram-bot/tree/master
 
 
 ## Author
