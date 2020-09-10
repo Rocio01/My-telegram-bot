@@ -35,4 +35,4 @@ class Bot
   end
 end
 
-Bot.new.copito_bot
+
