@@ -15,7 +15,7 @@
 
 - To use RSpec testing framework, only run rspec in your terminal in (My-telegram-bot)
 
-## Instruccions in Telegram
+## Instructions in Telegram
 
 - Open your telegram account and search for copito1_bot
 
@@ -42,8 +42,9 @@ Commands
 
 ## Prerequisites
 
-- Browser (Google Chrome, Mozilla Firefox, Safari or any other browser)
-- colorize and artii gems
+- Telegram account
+- bundler gem
+
 
 ## GitHub Repo
 
