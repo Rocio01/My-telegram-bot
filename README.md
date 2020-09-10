@@ -1,36 +1,57 @@
-# Advanced Building Blocks - Bubble Sort
+# [Telegram Bot ]
 
-> In this project, we implemented the bubble sort algorithm (to sort an array in ascending order). 
-Assignment is focused on the use of yield and passing a block to a method.
- #bubble_sort method
- #bubble_sort_by method
+- In this project, I built a bot using the platform Telegram. This is a bot that will fill your curiosity about our furry friends (dogs and cats), it posts random curiosities about dogs and cats and also images.
 
+ 
+## Setup
 
-## Screenshot
+- Make a copy in your local enviroment(Clone the Repository)
 
-![screenshot](screenshot.png)
+- Open this directory in your terminal (My-telegram-bot/bin)
 
+- To run the bot first in your terminal install the gem bundler($ gem install bundler) and then run the command bundler.
+
+- To run the Bot only type this command in your terminal(ruby main.rb) if you are in (My-telegram-bot/bin) or (ruby bin/main.rb) if you are in (My-telegram-bot)
+
+- To use RSpec testing framework, only run rspec in your terminal in (My-telegram-bot)
+
+## Instruccions in Telegram
+
+- Open your telegram account and search for copito1_bot
+
+Commands
+- /start to start the conversation.
+- /cat to get a random curiosity about cats.
+- /dog to get a random curiosity about dogs.
+- /photo to get a random imagen.
+- /end to get a random goodbye.
+
+## Bot preview
+
+![screenshot](Captura-telegram.PNG)
 
 ## Built With
 
 - Ruby
+- Colorize gem
+- telegram-bot-ruby gem
+- rspec gem
 - Rubocop
+- telegram
 
 
-## Live Demo
-
-[Live Demo Link](https://repl.it/@abouhid/bubblesortrb#main.rb)
-
-
-### Prerequisites
+## Prerequisites
 
 - Browser (Google Chrome, Mozilla Firefox, Safari or any other browser)
+- colorize and artii gems
 
-### Setup
+## GitHub Repo
 
-- Download or clone the repository's files
+-  https://github.com/afcastaneda223/OOP---Milestone/tree/master
+
 
 ## Author
+
 
 👤 **Rocio Martinez**
 
@@ -39,13 +60,6 @@ Assignment is focused on the use of yield and passing a block to a method.
 - Linkedin: [zulma-martinez-5247a31a8](https://www.linkedin.com/in/zulma-martinez-5247a31a8/)
 
 
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/abouhid/Bubble-Sort-Project/issues).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
@@ -53,10 +67,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-- GitHub
-- TheOdinProject
 - Ruby
+- Telegram
 
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
