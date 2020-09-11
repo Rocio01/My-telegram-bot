@@ -15,6 +15,8 @@
 
 - To use RSpec testing framework, only run rspec in your terminal in (My-telegram-bot)
 
+![screenshot](run-locally.jpg)
+
 ## Instructions in Telegram
 
 - Open your telegram account and search for copito1_bot
