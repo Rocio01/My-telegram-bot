@@ -5,15 +5,15 @@
  
 ## Setup
 
-- Make a copy in your local enviroment(Clone the Repository)
+- Make a copy in your local enviroment (Clone the Repository)
 
-- Open this directory in your terminal (My-telegram-bot/bin)
+- Open this directory in your terminal (My-telegram-bot)
 
 - To run the bot first in your terminal install the gem bundler($ gem install bundler) and then run the command bundler.
 
-- To run the Bot only type this command in your terminal(ruby main.rb) if you are in (My-telegram-bot/bin) or (ruby bin/main.rb) if you are in (My-telegram-bot)
+- To run the Bot only type this command in your terminal(ruby main.rb) if you are in My-telegram-bot/bin directory or (ruby bin/main.rb) if you are in My-telegram-bot directory.
 
-- To use RSpec testing framework, only run rspec in your terminal in (My-telegram-bot)
+- To use RSpec testing framework, only run rspec in your terminal in My-telegram-bot directory.
 
 ![screenshot](run-locally.jpg)
 
