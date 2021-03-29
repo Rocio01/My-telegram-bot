@@ -32,9 +32,6 @@ Commands
 
 ![screenshot](Captura-telegram.PNG)
 
-## Video preview
-
-- https://www.loom.com/share/2eae4a8097f64dafb0e43ac9da6009a9
 
 ## Built With
 
