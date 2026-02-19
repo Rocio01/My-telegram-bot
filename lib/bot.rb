@@ -22,7 +22,6 @@ class Bot
 
   def copito_bot
     Telegram::Bot::Client.run(token) do |bot|
-      setup_commands(bot)
       bot.listen do |message|
         handle_message(bot, message)
       end
@@ -32,6 +31,8 @@ class Bot
   private
 
   def handle_message(bot, message)
+    return unless message.respond_to?(:text) && message.respond_to?(:chat)
+
     case message.text
     when '/start' then bot.api.send_message(chat_id: message.chat.id, text: @greeting.welcome)
     when '/dog' then bot.api.send_message(chat_id: message.chat.id, text: @dog.dog_curiosities.sample)

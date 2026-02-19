@@ -4,6 +4,7 @@ AllCops:
     - "Rakefile"
   DisplayCopNames: true
   NewCops: disable
+  SuggestExtensions: false
 
 Layout/LineLength:
   Max: 120
@@ -16,7 +17,8 @@ Metrics/ClassLength:
 Metrics/BlockLength:
   AllowedMethods: ['describe']
   Max: 30
-
+Metrics/CyclomaticComplexity:
+  Max: 15
 
 Style/Documentation:
   Enabled: false
@@ -30,6 +32,14 @@ Style/DefWithParentheses:
   Enabled: false
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
+Style/HashEachMethods:
+  Enabled: false
+Style/HashTransformKeys:
+  Enabled: false
+Style/HashTransformValues:
+  Enabled: false
+Style/RedundantFileExtensionInRequire:
+  Enabled: false
 
 Layout/HashAlignment:
   EnforcedColonStyle: key
@@ -38,28 +48,12 @@ Layout/ExtraSpacing:
 Layout/MultilineMethodCallIndentation:
   Enabled: true
   EnforcedStyle: indented
+Layout/EndOfLine:
+  Enabled: false
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: false
+
 Lint/RaiseException:
   Enabled: false
 Lint/StructNewOverride:
   Enabled: false
-Style/HashEachMethods:
-  Enabled: false
-Style/HashTransformKeys:
-  Enabled: false
-Style/HashTransformValues:
-  Enabled: false
-
-Layout/EndOfLine:
-  Enabled: false
-
-Style/RedundantFileExtensionInRequire:
-  Enabled: false
-
-Layout/EmptyLinesAroundAttributeAccessor:
-  Enabled: false
-
-Metrics/CyclomaticComplexity:
-  Max: 15
-
-AllCops:
-  SuggestExtensions: false
