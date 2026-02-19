@@ -7,7 +7,7 @@ describe Telegram::Bot do
 end
 
 describe Telegram::Bot::Client do
-  it 'has a client' do
-    expect(Telegram::Bot::Client.nil?).to eql(false)
+  it 'exists as a class' do
+    expect(Telegram::Bot::Client).to be_a(Class)
   end
 end

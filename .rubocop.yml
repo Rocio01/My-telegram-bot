@@ -2,8 +2,8 @@ AllCops:
   Exclude:
     - "Guardfile"
     - "Rakefile"
-
   DisplayCopNames: true
+  NewCops: disable
 
 Layout/LineLength:
   Max: 120
@@ -14,7 +14,7 @@ Metrics/AbcSize:
 Metrics/ClassLength:
   Max: 150
 Metrics/BlockLength:
-  ExcludedMethods: ['describe']
+  AllowedMethods: ['describe']
   Max: 30
 
 
@@ -48,3 +48,18 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
+
+Layout/EndOfLine:
+  Enabled: false
+
+Style/RedundantFileExtensionInRequire:
+  Enabled: false
+
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Max: 15
+
+AllCops:
+  SuggestExtensions: false

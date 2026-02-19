@@ -1,19 +1,32 @@
-name: Linters
+name: Linters and Tests
 
 on: pull_request
 
 jobs:
   rubocop:
     name: Rubocop
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-ruby@v1
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6.x
-      - name: Setup Rubocop
-        run: |
-          gem install --no-document rubocop:'~>0.81.0' # https://docs.rubocop.org/en/stable/installation/
-          [ -f .rubocop.yml ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/ruby/.rubocop.yml
+          ruby-version: '3.0'
+          bundler-cache: true
       - name: Rubocop Report
-        run: rubocop --color
+        run: bundle exec rubocop --color
+
+  rspec:
+    name: RSpec
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+          bundler-cache: true
+      - name: Run tests
+        run: bundle exec rspec
+        env:
+          TELEGRAM_TOKEN: fake_token_for_tests
+          DOG_API_KEY: ''
+          CAT_API_KEY: ''
